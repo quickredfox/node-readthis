@@ -1,0 +1,27 @@
+{
+  "name": "readthis",
+  "version": "0.0.1",
+  "description": "Readthis takes block comments in specified .coffee or .js file(s) and outputs them in one file. End of story. I use it to document code in  README.md-style free-form API docs. ",
+  "main": "./bin/readthis",
+  "scripts": {
+    "test": "coffee ./test/readthis"
+  },
+  "repository": "",
+  "keywords": [
+    "javascript",
+    "coffeescript",
+    "simple",
+    "featureless",
+    "documentation",
+    "generator",
+    "comments",
+    "markdown"
+  ],
+  "dependencies":{
+    "coffee-script": "~1.3.3"
+    ,"falafel":      "~0.1.3"
+    ,"optimist":     "~0.3.4"
+  },
+  "author": "Francois Lafortune, @quickredfox",
+  "license": "BSD"
+}
