@@ -1,12 +1,18 @@
 {
   "name": "readthis",
   "version": "0.0.1",
-  "description": "Readthis takes block comments in specified .coffee or .js file(s) and outputs them in one file. End of story. I use it to document code in  README.md-style free-form API docs. ",
+  "description": "readthis takes block comments in specified .coffee or .js file(s) and outputs them in one file or on stdtout, passing through all other files types. End of story. I use it to document code in  README.md-style free-form API docs.",
   "main": "./bin/readthis",
   "scripts": {
-    "test": "coffee ./test/readthis"
+    "test": "./test/readthis.coffee"
   },
-  "repository": "",
+  "bin":{
+    "readthis":"./bin/readthis.coffee"
+  },
+  "repository": {
+    "type":"git"
+    ,"url": "https://github.com/quickredfox/node-readthis.git"
+  },
   "keywords": [
     "javascript",
     "coffeescript",
