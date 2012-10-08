@@ -1,6 +1,6 @@
 {
   "name": "readthis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "readthis takes block comments in specified .coffee or .js file(s) and outputs them in one file or on stdtout, passing through all other files types. End of story. I use it to document code in  README.md-style free-form API docs.",
   "main": "./bin/readthis",
   "scripts": {

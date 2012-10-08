@@ -43,7 +43,7 @@ unpad = ( string )->
   , false
   while /^\s/.test lines[0]
     lines = lines.map ( line )-> line.slice( 1 )
-  return lines.join("\n")
+  return lines.join("\n").trim()
  
 
 out = if out then fs.createWriteStream( out ) else {
